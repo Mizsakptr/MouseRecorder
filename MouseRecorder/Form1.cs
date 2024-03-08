@@ -72,8 +72,6 @@ namespace MouseRecorder
                 isRecordingLabel.Text = "Not recording";
                 timer.Tick -= new EventHandler(recording);
             }
-
-
         }
 
         private void playBtn_Click(object sender, EventArgs e)
